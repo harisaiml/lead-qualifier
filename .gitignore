@@ -1,9 +1,37 @@
-.env.local
-.env
-node_modules/
-.next/
-out/
-dist/
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js build output
+/.next/
+/out/
+/dist/
+/build/
+
+# logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# system & OS
 .DS_Store
+*.pem
 Thumbs.db
+
+# local env files - NEVER COMMIT TO GIT
+.env
+.env*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# vercel
+.vercel
