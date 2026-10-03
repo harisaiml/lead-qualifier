@@ -32,48 +32,6 @@
 - **Database**: Supabase (PostgreSQL)
 - **Deployment**: Vercel
 
-## Quick Start
-
-### 1. Clone and install
-\`\`\`bash
-git clone <repo>
-cd lead-qualifier
-npm install
-\`\`\`
-
-### 2. Environment variables
-\`\`\`bash
-cp .env.example .env.local
-\`\`\`
-
-Fill in your `.env.local`:
-\`\`\`env
-GEMINI_API_KEY=your_gemini_api_key
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
-\`\`\`
-
-### 3. Set up Supabase
-Run the SQL in `supabase/schema.sql` in your Supabase SQL editor.
-
-### 4. Get a Gemini API key
-Get your free API key at [Google AI Studio](https://aistudio.google.com/app/apikey).
-
-### 5. Run locally
-\`\`\`bash
-npm run dev
-\`\`\`
-
-Open [http://localhost:3000](http://localhost:3000)
-
-## Deployment (Vercel)
-
-1. Push to GitHub
-2. Import project in [Vercel](https://vercel.com)
-3. Add environment variables in Vercel project settings
-4. Deploy!
-
 ## Usage
 
 1. Enter a **company name** and **website URL** (or paste manual lead info)
